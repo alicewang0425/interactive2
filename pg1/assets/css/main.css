@@ -1,0 +1,186 @@
+body {
+	background: #cccccc;
+}
+
+.stage {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-bottom: 150px solid yellow;
+	position: absolute;
+	top: 203px;
+	left: 60px;
+
+}
+
+#square {
+	width: 200px;
+	height: 150px;
+	background: gray;
+	top: 203px;
+	left: 320px;
+	position: absolute;
+	-webkit-transform: skew(0deg, 6deg);
+ -moz-transform: skew(0deg, 6deg);
+ -ms-transform: skew(0deg, 6deg);
+ -o-transform: skew(0deg, 6deg);
+ transform: skew(0deg, 6deg);
+
+	/* uncomment to add keyframe animation */
+	/* animation: spin 2s infinite; */
+
+}
+#squareleft {
+	width: 200px;
+	height: 150px;
+	background: black;
+	top: 203px;
+	left: 550px;
+	position: absolute;
+	-webkit-transform: skew(0deg, -6deg);
+ -moz-transform: skew(0deg, -6deg);
+ -ms-transform: skew(0deg, -6deg);
+ -o-transform: skew(0deg, -6deg);
+ transform: skew(0deg, -6deg);
+
+	/* uncomment to add keyframe animation */
+	/* animation: spin 2s infinite; */
+
+}
+
+#squaredown {
+	width: 200px;
+	height: 75px;
+	background: gray;
+	top: 350px;
+	left: 250px;
+	position: absolute;
+	-webkit-transform: skew(-60deg, 6deg);
+ -moz-transform: skew(-60deg, 6deg);
+ -ms-transform: skew(-60deg, 6deg);
+ -o-transform: skew(-60deg, 6deg);
+ transform: skew(-60deg, 6deg);
+
+	/* uncomment to add keyframe animation */
+	/* animation: spin 2s infinite; */
+
+}
+
+#squaretop {
+	width: 200px;
+	height: 30px;
+	background: lightgray;
+	top: 200px;
+	left: 300px;
+	position: absolute;
+	-webkit-transform: skew(60deg, 6deg);
+ -moz-transform: skew(60deg, 6deg);
+ -ms-transform: skew(60deg, 6deg);
+ -o-transform: skew(60deg, 6deg);
+ transform: skew(-60deg, 6deg);
+
+	/* uncomment to add keyframe animation */
+	/* animation: spin 2s infinite; */
+
+}
+
+#squarehaha {
+	width: 200px;
+	height: 30px;
+	background: lightgray;
+	top: 200px;
+	left: 300px;
+	position: absolute;
+	-webkit-transform: skew(60deg, 6deg);
+ -moz-transform: skew(60deg, 6deg);
+ -ms-transform: skew(60deg, 6deg);
+ -o-transform: skew(60deg, 6deg);
+ transform: skew(0deg, 6deg);
+
+	/* uncomment to add keyframe animation */
+	/* animation: spin 2s infinite; */
+
+}
+
+#circle {
+	width: 130px;
+	height: 130px;
+	background: orange;
+	border-radius: 150px;
+	top: 270px;
+	left: 480px;
+	position: absolute;
+}
+#circleup {
+	width: 90px;
+	height: 105px;
+	background: orange;
+	border-radius: 150px;
+	top: 240px;
+	left: 525px;
+	position: absolute;
+	transform:rotate(25deg);
+}
+
+#circlewheel {
+	width: 90px;
+	height: 90px;
+	background: black;
+	border-radius: 150px;
+	top: 220px;
+	left: 400px;
+	position: absolute;
+	transform:rotate(25deg);
+
+}
+
+
+#clip {
+	width: 150px;
+	height: 150px;
+	background: green;
+	clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+	top: 203px;
+	left: 690px;
+	position: absolute;
+
+	/* uncomment for css transitions */
+	/* transition: all 400ms ease; */
+}
+
+/* animations */
+
+/*
+#clip:hover {
+	transform: rotate(1200deg);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes move {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+
+*/

@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>OUCH</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="assets/css/letter.css" type="text/css" />
+
+</head>
+
+<!-- <style>
+html {
+	/* cursor: pointer; */
+			cursor: url(finger.png), auto;
+		}
+</style> -->
+
+<body>
+
+	<div id="specimenGrid">
+
+		<!-- <div class="strokk" id=strokk>
+			<div id="stroke"></div>
+			<div id="stroke2"></div>
+			<div id="stroke3"></div>
+			<div id="stroke4"></div>
+			<div id="stroke5"></div>
+			<div id="stroke6"></div>
+			<div id="stroke7"></div>
+			<div id="stroke8"></div>
+			<div id="stroke9"></div>
+			<div id="stroke10"></div>
+			<div id="stroke11"></div>
+			<div id="stroke12"></div>
+			<div id="stroke13"></div>
+			<div id="stroke14"></div>
+			<div id="stroke15"></div>
+			<div id="stroke16"></div>
+			<div id="stroke17"></div>
+			<div id="stroke18"></div>
+			<div id="stroke19"></div>
+			<div id="stroke20"></div>
+			<div id="stroke21"></div>
+			<div id="stroke22"></div> -->
+
+			<div id="square"></div>
+
+			<script>
+			function foo(){
+			                var x = document.getElementById("btn");
+			                if (x.style.acircle == "white"){
+			                    x.style.acircle = "red";
+			                }
+			                else {
+			                    x.style.acirle = "white";
+			                }
+			            }
+			</script>
+
+
+			<div class="A" id=A>
+				<div id="a-stroke"></div>
+				<div id="a-strokeleft"></div>
+				<div id="a-circle" class="circle"></div>
+				<div id="a-circlesmall"></div>
+				<div id="a-line"></div>
+   	 </div>
+
+
+<!--
+			<div class="As" id=As>
+				<div id="a-strokes"></div>
+				<div id="a-strokelefts"></div>
+				<div id="a-circles"></div>
+				<div id="a-circlesmalls"></div>
+   	 </div> -->
+
+			<div class="B" id=B>
+				<div id="b-circle" class="circle"></div>
+				<div id="b-circlesmall"></div>
+				<div id="b-stroke1"></div>
+				<div id="b-circlebottom" class="circle"></div>
+				<div id="b-circlesmallbottom"></div>
+				<div id="b-stroke2"></div>
+				<div id="b-line"></div>
+				<div id="b-line1"></div>
+			</div>
+
+			<div class="C" id=C>
+				<div id="c-circle"></div>
+				<div id="c-square"></div>
+				<div id="c-circlesmall" class="circlesmall"></div>
+			</div>
+
+			<div class="D" id=D>
+				<div id="d-circle" class="circle"></div>
+				<div id="d-circlesmall" class="circlesmall"></div>
+				<div id="d-stroke2"></div>
+			</div>
+
+			<!-- <div class="E" id=E>
+				<div id="e-stroke1"></div>
+				<div id="e-stroke2"></div>
+				<div id="e-stroke3"></div>
+				<div id="e-stroke4"></div>
+				<div id="e-circlesmall1"></div>
+				<div id="e-circlesmall2"></div>
+			</div> -->
+
+			<div class="E0" id=E0>
+				<div id="e-stroke01"></div>
+				<div id="e-stroke02"></div>
+				<div id="e-stroke03"></div>
+				<div id="e-circle0" class="circle"></div>
+				<div id="e-circlesmall0"></div>
+				<div id="e-line"></div>
+			</div>
+
+			<!-- <div class="F" id=F>
+				<div id="f-stroke1"></div>
+				<div id="f-stroke2"></div>
+				<div id="f-stroke3"></div>
+				<div id="f-stroke4"></div>
+				<div id="f-circlesmall1"></div>
+			</div> -->
+
+			<div class="F0" id=F0>
+				<div id="f-stroke01"></div>
+				<div id="f-stroke02"></div>
+				<div id="f-circle0" class="circle"></div>
+				<div id="f-circlesmall0"></div>
+				<div id="f-line"></div>
+			</div>
+
+			<div class="G" id=G>
+				<div id="g-circle"></div>
+				<div id="g-square"></div>
+				<div id="g-circlesmall" class="circlesmall"></div>
+				<div id="g-stroke1"></div>
+			</div>
+
+			<div class="H" id=H>
+				<div id="h-circle" class="circle"></div>
+				<div id="h-circlesmall" class="circlesmall"></div>
+				<div id="h-stroke1"></div>
+				<div id="h-stroke2"></div>
+			</div>
+
+			<div class="I" id=I>
+				<div id="i-circle" class="circle"></div>
+				<div id="i-circlesmall"></div>
+				<div id="i-circlebottom" class="circle"></div>
+				<div id="i-circlesmallbottom"></div>
+				<div id="i-stroke1"></div>
+				<div id="i-stroke2"></div>
+				<div id="i-line"></div>
+				<div id="i-line1"></div>
+			</div>
+
+			<div class="J" id=J>
+				<div id="j-stroke1"></div>
+				<div id="j-stroke2"></div>
+				<div id="j-circlebottom" class="circle"></div>
+				<div id="j-circlesmallbottom"></div>
+				<div id="j-line"></div>
+			</div>
+
+			<div class="K" id=K>
+				<div id="k-stroke1"></div>
+				<div id="k-stroke2"></div>
+				<div id="k-circlebottom" class="circle"></div>
+				<div id="k-circlesmallbottom"></div>
+				<div id="k-line"></div>
+			</div>
+
+			<div class="L" id=L>
+				<div id="l-circle" class="circle"></div>
+				<div id="l-circlesmall"></div>
+				<div id="l-circlebottom" class="circle"></div>
+				<div id="l-circlesmallbottom"></div>
+				<div id="l-stroke1"></div>
+				<div id="l-line"></div>
+				<div id="l-line1"></div>
+			</div>
+
+
+			<div class="M" id=M>
+				<div id="m-stroke1"></div>
+				<div id="m-stroke2"></div>
+				<div id="m-circle" class="circle"></div>
+				<div id="m-circlesmall"></div>
+				<div id="m-circlebottom" class="circle"></div>
+				<div id="m-circlesmallbottom"></div>
+				<div id="m-line"></div>
+				<div id="m-line1"></div>
+   	 </div>
+
+			<div class="N" id=N>
+				<div id="n-stroke1"></div>
+				<div id="n-stroke2"></div>
+				<div id="n-circle" class="circle"></div>
+				<div id="n-circlesmall"></div>
+				<div id="n-circlebottom" class="circle"></div>
+				<div id="n-circlesmallbottom"></div>
+				<div id="n-line"></div>
+				<div id="n-line1"></div>
+   	 </div>
+
+			<div class="O" id=O>
+				<div id="o-circle" class="circle"></div>
+				<div id="o-circlesmall" class="circlesmall"></div>
+			</div>
+
+			<div class="P" id=P>
+				<div id="p-stroke"></div>
+				<div id="p-circle" class="circle"></div>
+				<div id="p-circlesmall"></div>
+				<div id="p-line"></div>
+   	 </div>
+
+			<div class="Q" id=Q>
+				<div id="q-circle" class="circle"></div>
+				<div id="q-circlesmall" class="circlesmall"></div>
+				<div id="q-stroke1"></div>
+				<div id="q-line"></div>
+			</div>
+
+			<div class="R" id=R>
+				<div id="r-stroke"></div>
+				<div id="r-circle" class="circle"></div>
+				<div id="r-circlesmall"></div>
+				<div id="r-stroke1"></div>
+				<div id="r-line"></div>
+   	 </div>
+
+			<div class="S" id=S>
+				<div id="s-circle"></div>
+				<div id="s-circlesmall"></div>
+				<div id="s-square"></div>
+				<div id="s-circle1"></div>
+				<div id="s-square1"></div>
+				<div id="s-circlesmall1"></div>
+			</div>
+
+			<div class="T" id=T>
+				<div id="t-stroke1"></div>
+				<div id="t-circle" class="circle"></div>
+				<div id="t-circlesmall"></div>
+				<div id="t-circlebottom" class="circle"></div>
+				<div id="t-circlesmallbottom"></div>
+				<div id="t-line"></div>
+				<div id="t-line1"></div>
+			</div>
+
+			<div class="U" id=U>
+				<div id="u-circle"></div>
+				<div id="u-square"></div>
+				<div id="u-circlesmall" class="circlesmall"></div>
+			</div>
+
+			<div class="V" id=V>
+				<div id="v-circlebottom" class="circle"></div>
+				<div id="v-circlesmallbottom"></div>
+				<div id="v-square"></div>
+				<div id="v-stroke1"></div>
+				<div id="v-stroke2"></div>
+				<div id="v-line"></div>
+			</div>
+
+			<div class="W" id=W>
+				<div id="w-stroke1"></div>
+				<div id="w-stroke2"></div>
+				<div id="w-circle" class="circle"></div>
+				<div id="w-circlesmall"></div>
+				<div id="w-circlebottom" class="circle"></div>
+				<div id="w-circlesmallbottom"></div>
+				<div id="w-line"></div>
+				<div id="w-line1"></div>
+   	 </div>
+
+			<div class="X" id=X>
+				<div id="x-circle1" class="circle"></div>
+				<div id="x-circlesmall1"></div>
+				<div id="x-circlebottom2" class="circle"></div>
+				<div id="x-circlesmallbottom2"></div>
+				<div id="x-circle3" class="circle"></div>
+				<div id="x-circlesmall3"></div>
+				<div id="x-circlebottom4" class="circle"></div>
+				<div id="x-circlesmallbottom4"></div>
+				<div id="x-line"></div>
+				<div id="x-line1"></div>
+				<div id="x-line2"></div>
+				<div id="x-line3"></div>
+			</div>
+
+			<div class="Y" id=Y>
+				<div id="y-circle"></div>
+				<div id="y-square"></div>
+				<div id="y-circlesmall"></div>
+				<div id="y-stroke1"></div>
+				<div id="y-line"></div>
+			</div>
+
+			<div class="Z" id=Z>
+				<div id="z-circle" class="circle"></div>
+				<div id="z-circlesmall" class="circlesmall"></div>
+				<div id="z-stroke1"></div>
+				<div id="z-stroke2"></div>
+			</div>
+
+			<div class="HEHE" id=HEHE>
+				<div id="hehe-stroke1"></div>
+				<div id="hehe-circle" class="circle"></div>
+				<div id="hehe-circlesmall"></div>
+				<div id="hehe-line"></div>
+   		 </div>
+
+			<div class="HAHA" id=HAHA>
+				<div id="haha-stroke1"></div>
+				<div id="haha-circle" class="circle"></div>
+				<div id="haha-circlesmall"></div>
+				<div id="haha-circlebottom" class="circle"></div>
+				<div id="haha-circlesmallbottom"></div>
+				<div id="haha-line"></div>
+				<div id="haha-line1"></div>
+			</div>
+
+			<div class="o1" id=o1>
+				<div id="o1-strokeleft"></div>
+				<div id="o1-circlesmall" class="circlesmall"></div>
+   	 	</div>
+
+			<div class="oo" id=oo>
+				<div id="oo-circle" class="circle"></div>
+				<div id="oo-circlesmall" class="circlesmall"></div>
+				<div id="oo-stroke1"></div>
+				<div id="oo-stroke2"></div>
+			</div>
+
+			<div class="o1" id=o1>
+				<div id="o1-circlebottom" class="circle"></div>
+				<div id="o1-circlesmallbottom"></div>
+				<div id="o1-stroke1"></div>
+				<div id="o1-stroke2"></div>
+				<div id="o1-line"></div>
+			</div>
+
+			<div class="o2" id=o2>
+				<div id="o2-stroke1"></div>
+				<div id="o2-circle" class="circle"></div>
+				<div id="o2-circlesmall"></div>
+				<div id="o2-stroke2"></div>
+				<div id="o2-line"></div>
+   		 </div>
+
+			<div class="o3" id=o3>
+				<div id="o3-circle" class="circle"></div>
+				<div id="o3-circlesmall"></div>
+				<div id="o3-circlebottom" class="circle"></div>
+				<div id="o3-circlesmallbottom"></div>
+				<div id="o3-stroke1"></div>
+				<div id="o3-stroke2"></div>
+				<div id="o3-stroke3"></div>
+				<div id="o3-line"></div>
+				<div id="o3-line1"></div>
+			</div>
+
+			<div class="o4" id=o4>
+				<div id="o4-stroke1"></div>
+				<div id="o4-stroke2"></div>
+				<div id="o4-circle" class="circle"></div>
+				<div id="o4-circlesmall"></div>
+				<div id="o4-circlebottom" class="circle"></div>
+				<div id="o4-circlesmallbottom"></div>
+				<div id="o4-line"></div>
+				<div id="o4-line1"></div>
+			</div>
+
+			<div class="o5" id=o5>
+				<div id="o5-stroke1"></div>
+				<div id="o5-stroke2"></div>
+				<div id="o5-circle" class="circle"></div>
+				<div id="o5-circlesmall"></div>
+				<div id="o5-line"></div>
+   	 </div>
+
+			<div class="o6" id=o6>
+				<div id="o6-stroke1"></div>
+				<div id="o6-circle" class="circle"></div>
+				<div id="o6-circlesmall"></div>
+				<div id="o6-line"></div>
+   	 </div>
+
+			<div class="o7" id=o7>
+				<div id="o7-stroke01"></div>
+				<div id="o7-stroke02"></div>
+				<div id="o7-circle0" class="circle"></div>
+				<div id="o7-circlesmall0"></div>
+				<div id="o7-line"></div>
+			</div>
+
+			<div class="o8" id=o8>
+				<div id="o8-circle" class="circle"></div>
+				<div id="o8-circlesmall"></div>
+				<div id="o8-circlebottom" class="circle"></div>
+				<div id="o8-circlesmallbottom"></div>
+				<div id="o8-line"></div>
+				<div id="o8-line1"></div>
+			</div>
+
+			<div class="o9" id=o9>
+				<div id="o9-stroke1"></div>
+				<div id="o9-circle" class="circle"></div>
+				<div id="o9-circlesmall"></div>
+				<div id="o9-line"></div>
+   		 </div>
+
+			<div class="COLEFT" id=COLEFT>
+				<div id="coleft-stroke1"></div>
+				<div id="coleft-stroke2"></div>
+				<div id="coleft-circle" class="circle"></div>
+				<div id="coleft-circlesmall"></div>
+				<div id="coleft-circlebottom" class="circle"></div>
+				<div id="coleft-circlesmallbottom"></div>
+   	 	</div>
+
+			<div class="CORIGHT" id=CORIGHT>
+				<div id="coright-stroke1"></div>
+				<div id="coright-stroke2"></div>
+				<div id="coright-circle" class="circle"></div>
+				<div id="coright-circlesmall"></div>
+				<div id="coright-circlebottom" class="circle"></div>
+				<div id="coright-circlesmallbottom"></div>
+   		 </div>
+
+			<div class="COBOTTOM" id=COBOTTOM>
+				<div id="cobottom-stroke1"></div>
+				<div id="cobottom-circle" class="circle"></div>
+				<div id="cobottom-circlesmall"></div>
+   		 </div>
+
+			<div class="PER" id=PER>
+				<div id="per-circle" class="circle"></div>
+				<div id="per-circlesmall"></div>
+   		 </div>
+
+<div class="nameO" id=nameO>
+	<div id="nameo-circle" class="circle"></div>
+	<div id="nameo-circlesmall" class="circlesmall"></div>
+</div>
+
+<div class="nameU" id=nameU>
+	<div id="nameu-circle"></div>
+	<div id="nameu-square"></div>
+	<div id="nameu-circlesmall" class="circlesmall"></div>
+</div>
+
+<div class="nameC" id=nameC>
+	<div id="namec-circle"></div>
+	<div id="namec-square"></div>
+	<div id="namec-circlesmall" class="circlesmall"></div>
+</div>
+
+<div class="nameH" id=nameH>
+	<div id="nameh-circle" class="circle"></div>
+	<div id="nameh-circlesmall" class="circlesmall"></div>
+	<div id="nameh-stroke1"></div>
+	<div id="nameh-stroke2"></div>
+</div>
+
+
+
+    </div>
+<!--
+<script type="text/javascript" src="mouse1.js" defer=""></script>
+<script type="text/javascript" src="eye1.js" defer=""></script> -->
+
+		<script>
+
+
+			let circles = document.querySelectorAll('.circle')
+			for(let i = 0; i< circles.length; i++){
+				let thisCircle = circles[i]
+				let amountOfPinkEye = 0
+				thisCircle.addEventListener('click',function(){
+					if(amountOfPinkEye < 1){
+							amountOfPinkEye += 0.5
+					}
+					// thisCircle.style.background = 'rgba(255,0,0,' + amountOfPinkEye + ')'
+
+					let colorOne = 'rgba(193,39,45,' + amountOfPinkEye + ')'
+					let colorTwo = 'rgba(193,39,45,' + amountOfPinkEye + ')'
+					let colorThree = 'rgba(255,255,255,' + amountOfPinkEye + ')'
+					thisCircle.style.background = "-webkit-radial-gradient(center, ellipse cover, "+colorOne+" 0%,"+colorTwo+" 30%,"+colorThree+" 80%)"
+
+
+				})
+			}
+
+
+
+
+			let smallCircles = document.querySelectorAll('.circlesmall')
+
+			for(let i = 0; i < smallCircles.length; i++){
+
+				let thisCircle = smallCircles[i]
+				thisCircle.parentNode.addEventListener('click',function(){
+
+				let r = 0
+				let a = 0
+
+				function loop(){
+						r += Math.random()*10 - 5
+						a += (Math.random() - 0.5)
+
+						if(r > 50){
+							r = 50
+						}
+						if(r < -50){
+							r = -50
+						}
+
+
+						// smallCircles[i].style.transform = "translate("+x+"px, "+y+"px)"
+						smallCircles[i].style.transform = "rotate("+a+"rad) translateY("+r+"px)"
+
+						window.requestAnimationFrame(loop)
+				}
+				window.requestAnimationFrame(loop)
+			})
+		}
+
+		</script>
+
+
+</body>
+
+</html>
